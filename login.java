@@ -24,6 +24,7 @@ class loginpage extends JFrame implements ActionListener{
         f.setTitle("login page");
         f.setSize(270,300);
         f.setVisible(true);
+        f.setLocationRelativeTo(null);
         // Declareing component and set font of the label.
         t1=new JTextField(10);
         t2=new JPasswordField(10);
@@ -93,6 +94,7 @@ class Converter extends JFrame implements ItemListener,ActionListener{
         frm.setVisible(true);
         frm.setResizable(false);
         frm.setLayout(null);
+        frm.setLocationRelativeTo(null);
         //for image of country
         try {
             img1 = ImageIO.read(new File("C://Users//HP//Desktop//gitdemo//Miniproject-java//Currencyimage//Indian Rupees.png"));
