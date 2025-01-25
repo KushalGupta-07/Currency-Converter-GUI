@@ -1,10 +1,10 @@
 # Currency-Converter-Application
-features:
+<p>features:</p>
  1.login page access.
  2.less code complexity.
  3. 6 country exchange rate are avaliable.
 
-limitation:
+<p>limitation:</p>
  1.manually update exchange rate in the code.
  2.No API key is used.
  3.password is changed in the source code.
